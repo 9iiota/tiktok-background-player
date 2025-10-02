@@ -1,14 +1,14 @@
 {
     "manifest_version": 3,
     "name": "TikTok Background Player",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Prevent TikToks from pausing when the tab is in the background.",
+    "permissions": [],
     "content_scripts": [
         {
             "matches": ["*://*.tiktok.com/*"],
             "js": ["content.js"],
-            "run_at": "document_start",
-            "type": "module"
+            "run_at": "document_start"
         }
     ]
 }
