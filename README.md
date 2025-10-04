@@ -1,53 +1,80 @@
-# TikTok Background Player
+# TikTok Background Player Chrome Extension / Tampermonkey Script
 
-TikTok Background Player is a small tool that prevents TikToks from pausing when your browser tab is in the background. It works as both a **Chrome extension** and a **Tampermonkey userscript**.
+[Chrome Web Store](#)
+
+---
+
+## Description
+
+TikTok Background Player is a Chrome extension and Tampermonkey userscript that prevents TikTok videos from pausing when the tab is in the background. By overriding visibility properties and intercepting visibility events, the script ensures videos continue playing even when you switch tabs or minimize the browser.
 
 ---
 
 ## Features
 
-- Keeps TikTok videos playing even when switching tabs or minimizing the browser.
-- Lightweight and runs automatically at page load.
-- Easy to install and use.
+* Prevent TikTok videos from pausing when the tab is not active.
+* Works with all TikTok pages.
+* Lightweight content script that runs at `document-start` to ensure early execution.
+* Compatible as both a Chrome extension and a Tampermonkey/Greasemonkey userscript.
 
 ---
 
 ## Installation
 
 ### Chrome Extension
-Install the Chrome extension directly from the Chrome Web Store:
 
-[Install Chrome Extension](https://chrome.google.com/webstore/detail/YOUR_CHROME_WEBSTORE_ID)
+1. Install from the [Chrome Web Store](#) (link to be added).
+2. Open TikTok in your browser. Videos will now continue playing when the tab is in the background.
 
-*(Replace `YOUR_CHROME_WEBSTORE_ID` with your extension’s actual ID.)*
+### Tampermonkey / Userscript
 
-### Tampermonkey Script
-For users who prefer a userscript, install via Tampermonkey:
-
-[Install Tampermonkey Script](https://raw.githubusercontent.com/9iiota/tiktok-background-player/main/content.user.js)
-
-- Click the link.
-- Tampermonkey will detect it as a userscript and prompt you to install.
-- Works on all `*.tiktok.com` URLs.
+1. Install [Tampermonkey](https://www.tampermonkey.net/) or a compatible userscript manager.
+2. Install the script directly via this link: [Install TikTok Background Player](https://raw.githubusercontent.com/9iiota/tiktok-background-player/main/content.user.js).
+3. Visit TikTok — videos will continue playing in the background automatically.
 
 ---
 
 ## Usage
 
-Once installed, the extension or script will automatically prevent TikTok from pausing videos. No configuration is required.
+1. Open TikTok in your browser.
+2. Switch tabs or minimize the browser.
+3. Videos will keep playing without interruption.
 
 ---
 
 ## Development
 
-- `content.js`: Core script that overrides the visibility API and blocks visibility events.  
-- `content.user.js`: Tampermonkey userscript that loads `content.js`.  
-- `manifest.json`: Chrome extension manifest.  
-- `icons/`: Folder containing extension icons in multiple sizes.  
+### Folder Structure
+
+* `content.js` - Overrides document visibility properties and blocks visibility events.
+* `content.user.js` - Userscript wrapper for Tampermonkey.
+* `manifest.json` - Chrome extension manifest file.
+* `icons/` - Folder containing extension icons.
+
+### Running Locally
+
+1. Clone the repository.
+2. Open Chrome and navigate to `chrome://extensions/`.
+3. Enable **Developer mode**.
+4. Click **Load unpacked** and select the cloned repository folder.
+5. Open TikTok and test background playback.
+
+---
+
+## Contributing
+
+Contributions are welcome! Fork the repository and submit pull requests for improvements, bug fixes, or additional features.
 
 ---
 
 ## License
 
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
+This project is open-source and licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
+---
+
+## Links
+
+* [GitHub Repository](https://github.com/9iiota/tiktok-background-player)
+* [Chrome Web Store](#)
+* [Tampermonkey Script Install Link](https://raw.githubusercontent.com/9iiota/tiktok-background-player/main/content.user.js)
