@@ -1,6 +1,6 @@
 # TikTok Background Player Chrome Extension / Tampermonkey Script
 
-[Chrome Web Store](#)
+[Chrome Web Store](https://chromewebstore.google.com/detail/tiktok-background-player/jcfjkcgmoglkdoljgbenmiijodgjdnof)
 
 ---
 
@@ -76,5 +76,5 @@ This project is open-source and licensed under the **MIT License**. See [LICENSE
 ## Links
 
 * [GitHub Repository](https://github.com/9iiota/tiktok-background-player)
-* [Chrome Web Store](#)
+* [Chrome Web Store](https://chromewebstore.google.com/detail/tiktok-background-player/jcfjkcgmoglkdoljgbenmiijodgjdnof)
 * [Tampermonkey Script Install Link](https://raw.githubusercontent.com/9iiota/tiktok-background-player/main/content.user.js)
