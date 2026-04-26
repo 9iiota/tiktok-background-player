@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tiktok Background Player
-// @namespace    https://github.com/9iiota/tiktok-background-player
+// @namespace    https://github.com/9iiota/background-player-for-tiktok
 // @version      1.0.0
 // @description  Prevent TikToks from pausing when the tab is in the background.
 // @match        *://*.tiktok.com/*
