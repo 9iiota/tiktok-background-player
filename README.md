@@ -1,6 +1,6 @@
 # Background Player for TikTok Chrome Extension / Tampermonkey Script
 
-[Chrome Web Store](https://chromewebstore.google.com/detail/background-player-for-tik/gfggkpmkigdofdafcglcnlebeekcihjl)
+[Chrome Web Store](https://chromewebstore.google.com/detail/background-player-for-tik/gfggkpmkigdofdafcglcnlebeekcihjl) [Tampermonkey Script](https://raw.githubusercontent.com/9iiota/background-player-for-tiktok/main/content.user.js)
 
 ---
 
@@ -29,7 +29,7 @@ Background Player for TikTok is a Chrome extension and Tampermonkey userscript t
 ### Tampermonkey / Userscript
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) or a compatible userscript manager.
-2. Install the script directly via this link: [Background Player for TikTok](https://raw.githubusercontent.com/9iiota/background-player-for-tiktok/main/content.user.js).
+2. Install the script directly via this link: [Tampermonkey Script](https://raw.githubusercontent.com/9iiota/background-player-for-tiktok/main/content.user.js).
 3. Visit TikTok — videos will continue playing in the background automatically.
 
 ---
@@ -77,4 +77,4 @@ This project is open-source and licensed under the **MIT License**. See [LICENSE
 
 * [GitHub Repository](https://github.com/9iiota/background-player-for-tiktok)
 * [Chrome Web Store](https://chromewebstore.google.com/detail/background-player-for-tik/gfggkpmkigdofdafcglcnlebeekcihjl)
-* [Tampermonkey Script Install Link](https://raw.githubusercontent.com/9iiota/background-player-for-tiktok/main/content.user.js)
+* [Tampermonkey Script](https://raw.githubusercontent.com/9iiota/background-player-for-tiktok/main/content.user.js)
