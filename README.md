@@ -1,4 +1,4 @@
-# TikTok Background Player Chrome Extension / Tampermonkey Script
+# Background Player for TikTok Chrome Extension / Tampermonkey Script
 
 [Chrome Web Store](https://chromewebstore.google.com/detail/tiktok-background-player/jcfjkcgmoglkdoljgbenmiijodgjdnof)
 
