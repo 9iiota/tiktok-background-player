@@ -6,5 +6,5 @@
 // @match        *://*.tiktok.com/*
 // @run-at       document-start
 // @grant        none
-// @require https://raw.githubusercontent.com/9iiota/tiktok-background-player/main/content.js
+// @require https://raw.githubusercontent.com/9iiota/background-player-for-tiktok/main/content.js
 // ==/UserScript==
