@@ -1,12 +1,12 @@
 # Background Player for TikTok Chrome Extension / Tampermonkey Script
 
-[Chrome Web Store](https://chromewebstore.google.com/detail/tiktok-background-player/jcfjkcgmoglkdoljgbenmiijodgjdnof)
+[Chrome Web Store]([https://chromewebstore.google.com/detail/tiktok-background-player/jcfjkcgmoglkdoljgbenmiijodgjdnof](https://chromewebstore.google.com/detail/background-player-for-tik/gfggkpmkigdofdafcglcnlebeekcihjl))
 
 ---
 
 ## Description
 
-TikTok Background Player is a Chrome extension and Tampermonkey userscript that prevents TikTok videos from pausing when the tab is in the background. By overriding visibility properties and intercepting visibility events, the script ensures videos continue playing even when you switch tabs or minimize the browser.
+Background Player for TikTok is a Chrome extension and Tampermonkey userscript that prevents TikTok videos from pausing when the tab is in the background. By overriding visibility properties and intercepting visibility events, the script ensures videos continue playing even when you switch tabs or minimize the browser.
 
 ---
 
@@ -23,13 +23,13 @@ TikTok Background Player is a Chrome extension and Tampermonkey userscript that 
 
 ### Chrome Extension
 
-1. Install from the [Chrome Web Store](#) (link to be added).
+1. Install from the [Chrome Web Store](https://chromewebstore.google.com/detail/background-player-for-tik/gfggkpmkigdofdafcglcnlebeekcihjl).
 2. Open TikTok in your browser. Videos will now continue playing when the tab is in the background.
 
 ### Tampermonkey / Userscript
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) or a compatible userscript manager.
-2. Install the script directly via this link: [Install TikTok Background Player](https://raw.githubusercontent.com/9iiota/tiktok-background-player/main/content.user.js).
+2. Install the script directly via this link: [Background Player for TikTok](https://raw.githubusercontent.com/9iiota/background-player-for-tiktok/main/content.user.js).
 3. Visit TikTok — videos will continue playing in the background automatically.
 
 ---
@@ -75,6 +75,6 @@ This project is open-source and licensed under the **MIT License**. See [LICENSE
 
 ## Links
 
-* [GitHub Repository](https://github.com/9iiota/tiktok-background-player)
-* [Chrome Web Store](https://chromewebstore.google.com/detail/tiktok-background-player/jcfjkcgmoglkdoljgbenmiijodgjdnof)
-* [Tampermonkey Script Install Link](https://raw.githubusercontent.com/9iiota/tiktok-background-player/main/content.user.js)
+* [GitHub Repository](https://github.com/9iiota/background-player-for-tiktok)
+* [Chrome Web Store](https://chromewebstore.google.com/detail/background-player-for-tik/gfggkpmkigdofdafcglcnlebeekcihjl)
+* [Tampermonkey Script Install Link](https://raw.githubusercontent.com/9iiota/background-player-for-tiktok/main/content.user.js)
